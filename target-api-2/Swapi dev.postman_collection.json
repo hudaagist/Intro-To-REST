@@ -1,0 +1,116 @@
+{
+	"info": {
+		"_postman_id": "09a9a919-da5f-4cde-b762-de5715ed1776",
+		"name": "Swapi dev",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "30192350",
+		"_collection_link": "https://crimson-flare-401626.postman.co/workspace/My-Workspace~62d8ad57-88e8-4c02-897e-c3572ed75eb9/collection/30192350-09a9a919-da5f-4cde-b762-de5715ed1776?action=share&source=collection_link&creator=30192350"
+	},
+	"item": [
+		{
+			"name": "Planets 2",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://swapi.dev/api/planets/2",
+					"protocol": "https",
+					"host": [
+						"swapi",
+						"dev"
+					],
+					"path": [
+						"api",
+						"planets",
+						"2"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "People 2",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://swapi.dev/api/people/2",
+					"protocol": "https",
+					"host": [
+						"swapi",
+						"dev"
+					],
+					"path": [
+						"api",
+						"people",
+						"2"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Startships 2",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://swapi.dev/api/starships/2",
+					"protocol": "https",
+					"host": [
+						"swapi",
+						"dev"
+					],
+					"path": [
+						"api",
+						"starships",
+						"2"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Starships 3",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://swapi.dev/api/starships/3",
+					"protocol": "https",
+					"host": [
+						"swapi",
+						"dev"
+					],
+					"path": [
+						"api",
+						"starships",
+						"3"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Starships 5",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://swapi.dev/api/starships/5",
+					"protocol": "https",
+					"host": [
+						"swapi",
+						"dev"
+					],
+					"path": [
+						"api",
+						"starships",
+						"5"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

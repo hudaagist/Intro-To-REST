@@ -1,0 +1,185 @@
+{
+	"info": {
+		"_postman_id": "2127b24d-9681-44d9-ae6e-c6da4732cab3",
+		"name": "News API",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "30192350",
+		"_collection_link": "https://crimson-flare-401626.postman.co/workspace/My-Workspace~62d8ad57-88e8-4c02-897e-c3572ed75eb9/collection/30192350-2127b24d-9681-44d9-ae6e-c6da4732cab3?action=share&source=collection_link&creator=30192350"
+	},
+	"item": [
+		{
+			"name": "Apple Article",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://newsapi.org/v2/everything?q=apple&from=2023-10-03&to=2023-10-03&sortBy=popularity&apiKey=9fd8ef059fe54e45b138c684ede3fa03",
+					"protocol": "https",
+					"host": [
+						"newsapi",
+						"org"
+					],
+					"path": [
+						"v2",
+						"everything"
+					],
+					"query": [
+						{
+							"key": "q",
+							"value": "apple"
+						},
+						{
+							"key": "from",
+							"value": "2023-10-03"
+						},
+						{
+							"key": "to",
+							"value": "2023-10-03"
+						},
+						{
+							"key": "sortBy",
+							"value": "popularity"
+						},
+						{
+							"key": "apiKey",
+							"value": "9fd8ef059fe54e45b138c684ede3fa03"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Top Business Headline",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://newsapi.org/v2/top-headlines?apiKey=9fd8ef059fe54e45b138c684ede3fa03&country=us&category=business",
+					"protocol": "https",
+					"host": [
+						"newsapi",
+						"org"
+					],
+					"path": [
+						"v2",
+						"top-headlines"
+					],
+					"query": [
+						{
+							"key": "apiKey",
+							"value": "9fd8ef059fe54e45b138c684ede3fa03"
+						},
+						{
+							"key": "country",
+							"value": "us"
+						},
+						{
+							"key": "category",
+							"value": "business"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "TechCrunch Headline",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://newsapi.org/v2/top-headlines?sources=techcrunch&apiKey=9fd8ef059fe54e45b138c684ede3fa03",
+					"protocol": "https",
+					"host": [
+						"newsapi",
+						"org"
+					],
+					"path": [
+						"v2",
+						"top-headlines"
+					],
+					"query": [
+						{
+							"key": "sources",
+							"value": "techcrunch"
+						},
+						{
+							"key": "apiKey",
+							"value": "9fd8ef059fe54e45b138c684ede3fa03"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Wallstreet Journal",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://newsapi.org/v2/everything?domains=wsj.com&apiKey=9fd8ef059fe54e45b138c684ede3fa03",
+					"protocol": "https",
+					"host": [
+						"newsapi",
+						"org"
+					],
+					"path": [
+						"v2",
+						"everything"
+					],
+					"query": [
+						{
+							"key": "domains",
+							"value": "wsj.com"
+						},
+						{
+							"key": "apiKey",
+							"value": "9fd8ef059fe54e45b138c684ede3fa03"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Tesla Article (failed, cz my key is invalid and i have to upgrade plan)",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://newsapi.org/v2/everything?q=tesla&from=2023-09-04&sortBy=publishedAt&apiKey=9fd8ef059fe54e45b138c684ede3fa03",
+					"protocol": "https",
+					"host": [
+						"newsapi",
+						"org"
+					],
+					"path": [
+						"v2",
+						"everything"
+					],
+					"query": [
+						{
+							"key": "q",
+							"value": "tesla"
+						},
+						{
+							"key": "from",
+							"value": "2023-09-04"
+						},
+						{
+							"key": "sortBy",
+							"value": "publishedAt"
+						},
+						{
+							"key": "apiKey",
+							"value": "9fd8ef059fe54e45b138c684ede3fa03"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
